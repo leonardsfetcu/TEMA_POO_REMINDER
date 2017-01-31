@@ -1,0 +1,12 @@
+Apel 121 12 0722123321
+Sedinta 121 10 4.000000
+Stabilirea temelor de casa pentru studentii de anul 3
+Sedinta 122 9 2.000000
+Stabilirea proiectelor finale pentru anul 4
+Sedinta 122 22 4.000000
+Stabilirea proiectelor pentru anul 2
+Apel 121 12 0722163321
+Sedinta 121 6 0.500000
+Stabilirea temelor de casa pentru studentii de anul 3
+Apel 121 12 0712123321
+Apel 121 13 0722123000

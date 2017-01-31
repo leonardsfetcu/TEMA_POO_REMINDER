@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Note">
+      <UniqueIdentifier>{eb5b1b65-0d88-4c84-805c-ea69a4f8ccf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ErrorHandler">
+      <UniqueIdentifier>{1aac35cc-3de1-4103-b7e3-d4d579cc814b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agenda">
+      <UniqueIdentifier>{7ee372d2-dd8f-468d-a557-e840104c4ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Fisiere">
+      <UniqueIdentifier>{af5cecdf-492b-4c77-ae46-f674211d8b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ErrorHandler">
+      <UniqueIdentifier>{37e0a34c-18c5-4ad8-bcc5-429abf07aa8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agenda">
+      <UniqueIdentifier>{e561229a-2b3c-4ec1-acb3-2e8714d3a06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Note">
+      <UniqueIdentifier>{ad54678d-38c4-4216-89e7-985d493c15b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{f8999c93-d063-4076-8f0c-8d4d00c38eea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apel.cpp">
+      <Filter>Source Files\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Nota.cpp">
+      <Filter>Source Files\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Sedinta.cpp">
+      <Filter>Source Files\Note</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptie.cpp">
+      <Filter>Source Files\ErrorHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Reminder.cpp">
+      <Filter>Source Files\Agenda</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartReminder.cpp">
+      <Filter>Source Files\Agenda</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apel.h">
+      <Filter>Header Files\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Sedinta.h">
+      <Filter>Header Files\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="Nota.h">
+      <Filter>Header Files\Note</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorCodes.h">
+      <Filter>Header Files\ErrorHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptie.h">
+      <Filter>Header Files\ErrorHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Reminder.h">
+      <Filter>Header Files\Agenda</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartReminder.h">
+      <Filter>Header Files\Agenda</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="agenda.txt">
+      <Filter>Header Files\Fisiere</Filter>
+    </Text>
+    <Text Include="backup_Reminder.txt">
+      <Filter>Header Files\Fisiere</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
